@@ -1,0 +1,22 @@
+{
+  "name": "form_konami_code",
+  "version": "0.0.1",
+  "description": "My week 1 Applaudo project",
+  "main": "index.html",
+  "scripts": {
+    "test": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/FrigoAlex/form_konami_code.git"
+  },
+  "author": "Alejandro Román",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/FrigoAlex/form_konami_code/issues"
+  },
+  "homepage": "https://gitlab.com/FrigoAlex/form_konami_code#readme",
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
