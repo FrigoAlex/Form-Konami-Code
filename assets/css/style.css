@@ -1,0 +1,31 @@
+/*Elements in all page*/
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    background: linear-gradient(to right, #33001b, #ff0084);
+
+}
+.title {
+    text-align: center;
+    padding: 0 1em;
+    color: #fff;
+}
+/*Elements in the konami section*/
+.sec-konami {
+    display: none;
+}
+.active{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+}
+.konami-title{
+    text-align: center;
+    padding: 0 1em;
+}
