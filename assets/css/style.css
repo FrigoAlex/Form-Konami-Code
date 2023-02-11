@@ -1,4 +1,5 @@
 /*Elements in all page*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
@@ -7,7 +8,8 @@ body {
     flex-direction: column;
     margin: 0 auto;
     justify-content: center;
-    background: linear-gradient(to right, #33001b, #ff0084);
+    background: linear-gradient(to right, #b24592, #f15f79);
+    height: 100vh;
 
 }
 .title {
@@ -31,6 +33,4 @@ body {
 }
 .konami-gif{
     margin: 0 auto;
-    width: 50%;
-    height: 50%;
 }
