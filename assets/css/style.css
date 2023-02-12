@@ -9,7 +9,7 @@ body {
     margin: 0 auto;
     justify-content: center;
     background: linear-gradient(to right, #b24592, #f15f79);
-    height: 100vh;
+    min-height: 100vh;
 
 }
 .title {
@@ -33,4 +33,164 @@ body {
 }
 .konami-gif{
     margin: 0 auto;
+}
+/*Elements in the form section*/
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 30%);
+    margin: 2rem auto;
+    width: 90%;
+    max-width: 600px;
+}
+.form {
+    padding: 2rem;
+    text-align: center;
+}
+.form-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: .3em;
+    margin-bottom: 2rem;
+}
+.form-container {
+    display: grid;
+    gap: 1.2rem
+}
+.form-group {
+    position: relative;
+}
+.form-input {
+    width: 100%;
+    background: none;
+    color: #706c6c;
+    font-size: 1rem;
+    padding: .4rem 0;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #5757577e;
+}
+
+.form-input:focus + .form-label, .form-input:not(:placeholder-shown) + .form-label {
+    transform: translateY(-12px) scale(.7);
+    transform-origin: left top;
+    color: #b24592; 
+}
+
+.form-label {
+    color: #5757577e;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 2px;
+    transform: translateY(10px);
+    transition: transform .5s, color .3s;
+}
+.form-group-range {
+    position: relative;
+}
+.form-input-range {
+    -webkit-appearance: button;
+    max-width: 50%;
+    overflow: hidden;
+    appearance: none;
+    border-radius: 35px;
+    background-color: #ededed;
+    margin-top: 4px;
+    float: right;
+}
+.form-input-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #b24592;
+    border-radius: 50%;
+    border: 2.5px solid #fff;
+    box-shadow: -208px 0 0 200px #b24592;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.form-input-range::-webkit-slider-thumb:hover {
+    background-color: #d853b1;
+    box-shadow: -208px 0 0 200px #d853b1;
+}
+.form-label-range{
+    position: absolute;
+    top: 6px;
+    left: 2px;
+}
+.form-label-check{
+    position: absolute;
+    top: 3px;
+    left: 1.7rem;
+}
+
+.checkbox-label{
+    font-size: .7em;
+    cursor: pointer;
+}
+.form-input-checkbox{
+    display: none;
+}
+.form-checkbox-span {
+    position: relative;
+    height: 2em;
+    width: 2em;
+    background-color: #b24592;
+    border-radius: 100%;
+    transition: all .3s;
+    float: left;
+}
+.form-checkbox-span:hover {
+    background-color: #d853b1;
+}
+.form-checkbox-span::after {
+    content: "";
+    position: absolute;
+    border: solid white;
+    border-width: 0 0.3em 0.3em 0;
+    transform: rotate(45deg);
+    width: 0.50em;
+    height: 1em;
+    left: 0.6em;
+    top: 0.25em;
+    opacity: 0;
+    transition: .3s ease;
+}
+.checkbox-label .form-input-checkbox:checked ~ .form-checkbox-span:after {
+    opacity: 1;
+}
+.btn {
+    background: #b24592;
+    color: #fff;
+    border: none;
+    padding: .8rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #d853b1;
+    transition: ease-in-out .3s;
+}
+@media screen and (max-width: 635px) {
+    .form {
+        padding: 1rem;
+    }
+    .form-group-range {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-label-range{
+        position: static;
+        margin-bottom: .8rem;
+    }
+    .form-input-range {
+        position: static;
+        width: 90%;
+        margin: 0 auto;
+    }
 }
