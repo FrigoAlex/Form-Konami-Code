@@ -21,7 +21,11 @@ body {
     padding: 0 1em;
     color: #fff;
 }
-/*Elements in the konami section*/
+/*
+  +------------------------------------+
+  |   Elements in the konami section   |
+  +------------------------------------+
+*/
 .sec-konami {
     display: none;
 }
