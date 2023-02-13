@@ -1,4 +1,9 @@
-//My konami code [w,w,s,s,a,d,a,d,x,z]
+/*
+  +------------------------------------+
+  |My konami code [w,w,s,s,a,d,a,d,x,z]|
+  +------------------------------------+
+*/
+
 let code = "";
 const validCode = /wwssadadxz/i;
 const konamiSec = document.querySelector('.sec-konami');
