@@ -1,4 +1,8 @@
-/*Elements in all page*/
+/*
+  +------------------------------------+
+  |        Elements in all page        |
+  +------------------------------------+
+*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 body {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
@@ -34,7 +38,11 @@ body {
 .konami-gif{
     margin: 0 auto;
 }
-/*Elements in the form section*/
+/*
+  +------------------------------------+
+  |    Elements in the form section    |
+  +------------------------------------+
+*/
 .card {
     background: #fff;
     border-radius: 10px;
