@@ -19,7 +19,7 @@
         </article>
         <article class="sec-form">
             <div class="card">
-                <form class="form">
+                <form class="form" novalidate="true">
                     <h2 class="form-title">Register</h2>
                     <div class="form-container">
                     <div class="form-group">
@@ -43,7 +43,7 @@
                             <label for="confirm_password" class="form-label">Confirm Password</label>
                         </div>
                         <div class="form-group">
-                            <input type="number" id="phone" class="form-input" placeholder=" ">
+                            <input type="tel" id="phone" class="form-input" placeholder=" ">
                             <label for="phone" class="form-label">Phone</label>
                         </div>
                         <div class="form-group">
@@ -63,11 +63,13 @@
                         </div>
                         <div class="form-group">
                             <label class="checkbox-label">
-                                <input type="checkbox" class="form-input-checkbox">
+                                <input type="checkbox" id="terms" class="form-input-checkbox">
                                 <span class="form-checkbox-span"></span>
                             </label>
                             <div class="form-label-check">I accept the terms and conditions</div>
                         </div>
+                        <div class="alert"></div>
+                        <div class="success">The form was sent successfully!</div>
                         <input type="submit" value="Send" class="btn">
                     </div>
                 </form>
