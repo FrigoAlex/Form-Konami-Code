@@ -117,7 +117,6 @@ body {
     border-radius: 50%;
     border: 2.5px solid #fff;
     box-shadow: -208px 0 0 200px #b24592;
-    border-radius: 50%;
     cursor: pointer;
 }
 .form-input-range::-webkit-slider-thumb:hover {
@@ -170,12 +169,33 @@ body {
 .checkbox-label .form-input-checkbox:checked ~ .form-checkbox-span:after {
     opacity: 1;
 }
+.alert {
+    background: #f8d7da;
+    color: #b02a37;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #b02a37;
+    display: none;
+}
+.success {
+    background: #d1e7dd;
+    color: #146c43;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    border: 1px solid #146c43;
+    display: none;
+}
+.show {
+    display: block;
+}
 .btn {
     background: #b24592;
     color: #fff;
     border: none;
     padding: .8rem 1.5rem;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
