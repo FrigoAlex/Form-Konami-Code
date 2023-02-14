@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://gitlab.com/FrigoAlex/form_konami_code/issues"
   },
-  "homepage": "https://gitlab.com/FrigoAlex/form_konami_code#readme",
-  "dependencies": {
-    "normalize.css": "^8.0.1"
-  }
+  "homepage": "https://gitlab.com/FrigoAlex/form_konami_code#readme"
 }
