@@ -6,12 +6,12 @@
 
 let code = "";
 const validCode = /wwssadadxz/i;
-const konamiSec = document.querySelector('.sec-konami');
+const konamiSec = document.querySelector(".sec-konami");
 
-document.addEventListener('keydown', (e) => {
-    code += e.key;
-    if (validCode.exec(code)) {
-        konamiSec.classList.toggle('active');
-        code = "";
-    }
+document.addEventListener("keydown", (e) => {
+  code += e.key;
+  if (validCode.exec(code)) {
+    konamiSec.classList.toggle("active");
+    code = "";
+  }
 });

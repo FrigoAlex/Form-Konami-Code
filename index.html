@@ -1,82 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Form & Konami Code</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
     <main class="container">
-        <header>
-            <h1 class="title">Form & Konami Code</h1>
-        </header>
-        <article class="sec-konami">
-            <h2 class="konami-title">Surprise! you have found the easter egg!</h2>
-            <img class="konami-gif" src="assets/img/ken-street-fighter.gif" alt="Animated Ken flying kick">
-        </article>
-        <article class="sec-form">
-            <div class="card">
-                <form class="form" novalidate="true">
-                    <h2 class="form-title">Register</h2>
-                    <div class="form-container">
-                    <div class="form-group">
-                        <input type="text" id="name" class="form-input" placeholder=" ">
-                        <label for="name" class="form-label">Name</label>
-                    </div>
-                        <div class="form-group">
-                            <input type="text" id="last_name" class="form-input" placeholder=" ">
-                            <label for="last_name" class="form-label">Last Name</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" id="email" class="form-input" placeholder=" ">
-                            <label for="email" class="form-label">Email</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" id="password" class="form-input" placeholder=" ">
-                            <label for="password" class="form-label">Password</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="password" id="confirm_password" class="form-input" placeholder=" ">
-                            <label for="confirm_password" class="form-label">Confirm Password</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" id="phone" class="form-input" placeholder=" ">
-                            <label for="phone" class="form-label">Phone</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="number" id="age" class="form-input" placeholder=" ">
-                            <label for="age" class="form-label">Age</label>
-                        </div>
-                        <div class="form-group">
-                            <input type="url" id="website" class="form-input" placeholder=" ">
-                            <label for="website" class="form-label">Website</label>
-                        </div>
-                        <div class="form-group-range">
-                            <div class="form-label-range">
-                                Level of experience:
-                                <label for="level" id="experience">1 year experience</label>
-                            </div>
-                            <input type="range" id="level" min="1" max="5" value="1" class="form-input-range" placeholder=" ">
-                        </div>
-                        <div class="form-group">
-                            <label class="checkbox-label">
-                                <input type="checkbox" id="terms" class="form-input-checkbox">
-                                <span class="form-checkbox-span"></span>
-                            </label>
-                            <div class="form-label-check">I accept the terms and conditions</div>
-                        </div>
-                        <div class="alert"></div>
-                        <div class="success">The form was sent successfully!</div>
-                        <input type="submit" value="Send" class="btn">
-                    </div>
-                </form>
+      <header>
+        <h1 class="title">Form & Konami Code</h1>
+      </header>
+      <article class="sec-konami">
+        <h2 class="konami-title">Surprise! you have found the easter egg!</h2>
+        <img
+          class="konami-gif"
+          src="assets/img/ken-street-fighter.gif"
+          alt="Animated Ken flying kick"
+        />
+      </article>
+      <article class="sec-form">
+        <div class="card">
+          <form class="form" novalidate="true">
+            <h2 class="form-title">Register</h2>
+            <div class="form-container">
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="name"
+                  class="form-input"
+                  placeholder=" "
+                />
+                <label for="name" class="form-label">Name</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="text"
+                  id="last_name"
+                  class="form-input"
+                  placeholder=" "
+                />
+                <label for="last_name" class="form-label">Last Name</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="email"
+                  id="email"
+                  class="form-input"
+                  placeholder=" "
+                />
+                <label for="email" class="form-label">Email</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  id="password"
+                  class="form-input"
+                  placeholder=" "
+                />
+                <label for="password" class="form-label">Password</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="password"
+                  id="confirm_password"
+                  class="form-input"
+                  placeholder=" "
+                />
+                <label for="confirm_password" class="form-label"
+                  >Confirm Password</label
+                >
+              </div>
+              <div class="form-group">
+                <input
+                  type="tel"
+                  id="phone"
+                  class="form-input"
+                  placeholder=" "
+                />
+                <label for="phone" class="form-label">Phone</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="number"
+                  id="age"
+                  class="form-input"
+                  placeholder=" "
+                />
+                <label for="age" class="form-label">Age</label>
+              </div>
+              <div class="form-group">
+                <input
+                  type="url"
+                  id="website"
+                  class="form-input"
+                  placeholder=" "
+                />
+                <label for="website" class="form-label">Website</label>
+              </div>
+              <div class="form-group-range">
+                <div class="form-label-range">
+                  Level of experience:
+                  <label for="level" id="experience">1 year experience</label>
+                </div>
+                <input
+                  type="range"
+                  id="level"
+                  min="1"
+                  max="5"
+                  value="1"
+                  class="form-input-range"
+                  placeholder=" "
+                />
+              </div>
+              <div class="form-group">
+                <label class="checkbox-label">
+                  <input
+                    type="checkbox"
+                    id="terms"
+                    class="form-input-checkbox"
+                  />
+                  <span class="form-checkbox-span"></span>
+                </label>
+                <div class="form-label-check">
+                  I accept the terms and conditions
+                </div>
+              </div>
+              <div class="alert"></div>
+              <div class="success">The form was sent successfully!</div>
+              <input type="submit" value="Send" class="btn" />
             </div>
-        </article>
+          </form>
+        </div>
+      </article>
     </main>
     <script src="assets/js/konami.js"></script>
     <script src="assets/js/form.js"></script>
-</body>
+  </body>
 </html>
